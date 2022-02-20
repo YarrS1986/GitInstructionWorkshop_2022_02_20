@@ -38,6 +38,24 @@
 
 ### Инструкция по созданию pull request
 
+1. делаем fork 
+
+2. в своем репозитории github на кнопке **Code**  копируем ссылку
+
+3. в локальном VS Code выполняем команды 
+        
+        1. git clone https://github.com/YarrS1986/GitInstructionWorkshop_2022_02_20.git
+        2. cd .\GitInstructionWorkshop_2022_02_20\
+        3. git checkout -b vopr12
+        4. вносим ответ на вопрос в файале "GitInstruction.md"
+        5. нажимаем на клавиатуре "ctrl+S"
+        6. git add .\GitInstruction.md
+        7. git commit -m "создали инструкцию к 12 вопросу"
+        8. git push
+        
+4. далее pull request
+
+
 ## Книги и полезные ссылки по изучению git.
 
 ## Альтернативные системы контроля версий.
